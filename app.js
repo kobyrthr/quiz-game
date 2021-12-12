@@ -37,16 +37,20 @@ document.querySelector('#answer').addEventListener('click',(e)=>{
 
     console.log(rightAnswer)
 
-    if ( e.target.innerHTML === rightAnswer){
-       e.target.prepend('✅')
-    }
-
-for(i=0;i<options.length;i++){
-          
-            if (options[i].innerHTML!=='✅'+rightAnswer) {
-                options[i].prepend('⛔️')
-            }
+    
+    for(i=0;i<options.length;i++){
+        
+        if ( options[i].innerHTML === rightAnswer){
+            options[i].prepend('✅')
         }
-    options.attr('disabled','disabled')
+        else if (options[i].innerHTML !== rightAnswer){
+            options[i].prepend('⛔️')
+
+        }
+        
+    
+        }
+
+       
 
 })
