@@ -1,4 +1,38 @@
-#next{
-    padding: 32px;
-    margin: 24px;
+#hint p,h3{
+    display: inline;
+}
+
+
+#hint{
+    width: 50%;
+    height: 100%;
+}
+#player{
+    width: 100%;
+    background-color: #FFEFD0;
+}
+
+#answer{
+    width: 50%;
+    height: 100%;
+}
+
+#questionBox{
+    display: flex;
+    height: 90vh;
+}
+
+.options{
+    background-color: #F7C86A;
+    border: solid 4px #FFEFD0;
+    border-radius: 100px;
+    padding: 20px 100px;
+    width: 100%;
+    margin-bottom: 32px;
+
+}
+
+body{
+    background-color:#262626;
+    margin: 32px;
 }
