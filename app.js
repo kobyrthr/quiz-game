@@ -61,6 +61,8 @@ hintArtist[0].innerHTML = questions[1].artist
 songBox.innerHTML = questions[1].embed
 document.body.appendChild(showScore)
 
+
+
 //FUNCTIONS
 const nextQuestion = (e) =>{
 
@@ -106,8 +108,10 @@ const showAnswer = (e)=>{
 
         if (e.target.innerHTML==='✅'+rightAnswer){
             score = score+1
+            showScore.innerHTML = `Score:${score}` 
+
         }
-        playerScore()
+        // playerScore()
         graveyard.push(currentQuestion)
         questionPile.splice(questionPile.indexOf(currentQuestion),1)
         currentQuestion = randomChoice(questionPile)
@@ -115,11 +119,11 @@ const showAnswer = (e)=>{
         console.log('Graveyard',graveyard)
 
 }
-const playerScore = () =>{
+// const playerScore = () =>{
 
-    showScore.innerHTML = `Score:${score}`
-    showScore.className = "score"    
-}
+//     showScore.innerHTML = `Score:${score}`
+//     showScore.className = "score"    
+// }
 function randomChoice(arr) {
     return arr[Math.floor(arr.length * Math.random())];
 }
@@ -144,11 +148,14 @@ console.log('Question pile',questionPile)
 console.log('Graveyard',graveyard)
 console.log(currentQuestion)
 console.log(currentQuestion.title)
+
+showScore.innerHTML = `Score:${score}`
+showScore.className = "score"  
 }
 
 
 
-//EVENTs
+//EVENTS
 startGame()
 document.querySelector('#next').addEventListener('click',nextQuestion)
 document.querySelector('#answer').addEventListener('click',showAnswer)
