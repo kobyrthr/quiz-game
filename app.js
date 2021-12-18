@@ -124,7 +124,32 @@ function randomChoice(arr) {
     return arr[Math.floor(arr.length * Math.random())];
 }
 
-//CLICK HANDLERS
+
+
+//GAME START
+startGame = () =>{
+
+currentQuestion = randomChoice(questionPile)
+
+hintTitle[0].innerHTML = currentQuestion.title
+hintArtist[0].innerHTML = currentQuestion.artist
+songBox.innerHTML = currentQuestion.embed
+rightAnswer = currentQuestion.answers[currentQuestion.correct]
+
+for (x=0;x<currentQuestion.answers.length;x++){
+    options[x].innerHTML = currentQuestion.answers[x]
+}
+
+console.log('Question pile',questionPile)
+console.log('Graveyard',graveyard)
+console.log(currentQuestion)
+console.log(currentQuestion.title)
+}
+
+
+
+//EVENTs
+startGame()
 document.querySelector('#next').addEventListener('click',nextQuestion)
 document.querySelector('#answer').addEventListener('click',showAnswer)
 
