@@ -17,7 +17,7 @@
 
 #answer{
     width: 50%;
-    display: gird;
+    display: flex;
     justify-content: center;
     height: 70%;
     align-self: center;
