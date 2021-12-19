@@ -15,6 +15,10 @@
 
 }
 
+#score{
+    color: white;
+}
+
 #answer{
     width: 50%;
     display: flex;
@@ -30,7 +34,12 @@
 
 #questionBox{
     display: flex;  
-    height: 100vh;
+    height: 80vh;
+}
+
+#instructions{
+    color:white;
+    text-align: center;
 }
 
 .options{
@@ -46,5 +55,10 @@
 body{
     background-color:#262626;
     margin: 32px;
+    max-height: 80vh;
     
+}
+
+span p{
+    font-weight: bold;
 }
