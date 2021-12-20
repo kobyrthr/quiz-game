@@ -1,8 +1,64 @@
-#next{
-    padding: 32px;
-    margin: 24px;
+#hint p,h3{
+    display: inline;
+}
+
+
+#hint{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#player{
+    width: 80%;
+    background-color: #FFEFD0;
+    align-self: center;
+
+}
+
+#score{
+    color: white;
+}
+
+#answer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    align-self: center;
+}
+
+#container{
+    display: grid;
+    align-self: center;
+}
+
+#questionBox{
+    display: flex;  
+    height: 80vh;
+}
+
+#instructions{
+    color:white;
+    text-align: center;
+}
+
+.options{
+    background-color: #F7C86A;
+    border: solid 4px #FFEFD0;
+    border-radius: 100px;
+    padding: 20px 100px;
+    width: 100%;
+    margin-bottom: 32px;
+
 }
 
 body{
-    background-color: red;
+    background-color:#262626;
+    margin: 32px;
+    max-height: 80vh;
+    
+}
+
+span p{
+    font-weight: bold;
 }

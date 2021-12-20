@@ -17,19 +17,31 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <nav>
+            <div id="score"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </nav>
+        <p id="instructions"> <span>Instructions:</span>  Which one of these songs used the sample on the right?</p>
             <section id ="questionBox">
                 <div id ="hint">
-                    <h3></h3>
-                    <p></p>
-                    <div id ="songBox"></div>
+                    <div id="player">
+                        <div id ="songBox"></div>
+                        <h3></h3>
+                        <p></p>
+                    </div>
                 </div>
                 <div id ="answer">
-                    <button class="options"></button>
-                    <button class="options"></button>
-                    <button class="options"></button>
-                    <button class="options"></button>
+                    <div id="container">
+                        <button class="options">Dummy option 1</button>
+                        <button class="options">Dummy option 1</button>
+                        <button class="options">Dummy option 1</button>
+                        <button class="options">Dummy option 1</button>
+                        <button id ="next">Next</button>
                 </div>
-                <button id ="next">Next</button>
+                </div>
+                
             </section>
         
     </body>
