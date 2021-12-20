@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+
 #hint p,h3{
     display: inline;
 }
+
 
 
 #hint{
@@ -12,11 +15,25 @@
     width: 80%;
     background-color: #FFEFD0;
     align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
 
+
+}
+
+#player span{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #363636;
+    color:lightgray;
 }
 
 #score{
     color: white;
+    font-family:"Codystar" ;
+    font-weight: bold;
+    font-size: 32px;
 }
 
 #answer{
@@ -28,8 +45,16 @@
 }
 
 #container{
-    display: grid;
+    /* display: grid; */
     align-self: center;
+    display: inline;
+}
+#next{
+    justify-self: center;
+}
+
+.row{
+width:100%;
 }
 
 #questionBox{
@@ -39,16 +64,21 @@
 
 #instructions{
     color:white;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#instructions span{
+    font-weight: bold;
 }
 
 .options{
     background-color: #F7C86A;
     border: solid 4px #FFEFD0;
-    border-radius: 100px;
+    border-radius: 24px;
     padding: 20px 100px;
-    width: 100%;
+    width: 49%;
     margin-bottom: 32px;
+    min-height:150px;
 
 }
 
@@ -59,6 +89,3 @@ body{
     
 }
 
-span p{
-    font-weight: bold;
-}
