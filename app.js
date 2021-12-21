@@ -156,19 +156,23 @@ console.log(currentQuestion.title)
 }
 const showAnswer = (e)=>{
     console.log(currentQuestion.title)
-    
-    for(i=0;i<options.length;i++){
-        
-        if ( options[i].innerHTML === rightAnswer){
-            options[i].prepend('✅')
-        }
-        else if (options[i].innerHTML !== rightAnswer){
-            
-            options[i].prepend('⛔️')
 
-        }
+    if (e.target.matches('button')===true){
+
+        for(i=0;i<options.length;i++){
+            
+            if ( options[i].innerHTML === rightAnswer){
+                options[i].prepend('✅')
+            }
+            else if (options[i].innerHTML !== rightAnswer){
+                
+                options[i].prepend('⛔️')
     
-        }
+            }
+        
+            }
+    }
+    
 
         if (e.target.innerHTML==='✅'+rightAnswer){
             score = score+1
