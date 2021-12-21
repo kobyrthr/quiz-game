@@ -219,17 +219,36 @@ showScore.className = "score"
 
     modalBg.style.display="flex"
 
+    let scoreMsg = document.createElement('p')
+    let modalBox = document.createElement('div')
+    let resetBtn = document.createElement('button')
+    resetBtn.innerHTML ='New Game'
+    resetBtn.addEventListener('click',()=>{
+        location.reload()
+    })
+
+
+
     if(score > 6){
-        modalMain.innerText =`${score} out of 10! Respect! You're a verified hip-hop head!`
+        scoreMsg.innerHTML = `${score} out of 10! Respect! You're a verified hip-hop head!`
         
     }
     if(score < 7 && score > 3){
-        modalMain.innerText =`${score} out 10. Not bad. You're a hip-hop head in training!`
+        scoreMsg.innerHTML = `${score} out 10. Not bad. You're a hip-hop head in training!`
     }
     if(score < 4 ){
-        modalMain.innerText =`You only scored ${score} point(s). Someone's not doing their Googles!`
+        // modalMain.innerText =`You only scored ${score} point(s). Someone's not doing their Googles!`
+                scoreMsg.innerHTML = `You only scored ${score} point(s). Someone's not doing their Googles!`
+       
 
     }
+
+    modalBox.append(scoreMsg)
+    modalBox.append(resetBtn)
+    modalMain.append(modalBox)
+
+    
+
 
 
 }
