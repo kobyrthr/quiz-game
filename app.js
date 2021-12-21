@@ -105,6 +105,7 @@ let currentQuestion
 let score = 0
 
 //DOM SELECTIONS
+const page = document.querySelector('body')
 const questionBox = document.querySelector('#questionBox')
 const hintTitle = document.querySelector('#hint').getElementsByTagName('h3')
 const hintArtist =  document.querySelector('#hint').getElementsByTagName('p')
@@ -112,6 +113,10 @@ const songBox =  document.querySelector('#songBox')
 const options = document.querySelectorAll('.options')
 const answers = questions[1].answers
 const showScore = document.querySelector("#score")
+const modalBg = document.querySelector('.modalBg')
+const modalMain = document.querySelector('.modalMain')
+
+
 
 //DOM MANIPULATION
 hintTitle[0].innerHTML = questions[1].title
@@ -176,20 +181,12 @@ const showAnswer = (e)=>{
         currentQuestion = randomChoice(questionPile)
         console.log('Question pile',questionPile)
         console.log('Graveyard',graveyard)
+        endGame()
 
 }
-// const playerScore = () =>{
-
-//     showScore.innerHTML = `Score:${score}`
-//     showScore.className = "score"    
-// }
 function randomChoice(arr) {
     return arr[Math.floor(arr.length * Math.random())];
 }
-
-
-
-//GAME START
 startGame = () =>{
 
 currentQuestion = randomChoice(questionPile)
@@ -212,12 +209,35 @@ showScore.innerHTML = `Score:${score}`
 showScore.className = "score"  
 }
 
+ endGame = () => {
+     if (graveyard.length ===10){
+    console.log("Game over")
+
+    modalBg.style.display="flex"
+
+    if(score > 6){
+        modalMain.innerText =`${score} out of 10! Respect! You're a verified hip-hop head!`
+        
+    }
+    if(score < 7 && score > 3){
+        modalMain.innerText =`${score} out 10. Not bad. You're a hip-hop head in training!`
+    }
+    if(score < 4 ){
+        modalMain.innerText =`You only scored ${score} point(s). Someone's not doing their Googles!`
+
+    }
+
+
+}
+ }
+
 
 
 //EVENTS
 startGame()
 document.querySelector('#next').addEventListener('click',nextQuestion)
 document.querySelector('#answer').addEventListener('click',showAnswer)
+endGame()
 
 
 
