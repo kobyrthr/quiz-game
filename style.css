@@ -47,9 +47,9 @@
 }
 
 #container{
-    /* display: grid; */
     align-self: center;
     display: inline;
+    width:100%;
 }
 #next{
     display:block;
