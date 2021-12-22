@@ -27,8 +27,8 @@ const questions = [
         id:2,
         title:"Pressure ",
         artist:" - Quadron",
-        embed:`<iframe width=${boxWidth} height="315" src="https://www.youtube.com/embed/ILPNhmg3geM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        answers: ['A$AP Rocky. Sundress','Lemon Pepper Freestyle','Kanye West. All Falls Down','Giveon. Like I Want You'],
+        embed:`<iframe width=${boxWidth} height="315" src="https://www.youtube.com/embed/ILPNhmg3geM?start=203" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        answers: ['A$AP Rocky. Sundress','Drake. Lemon Pepper Freestyle','Kanye West. All Falls Down','Giveon. Like I Want You'],
         correct: 1
 
     },
@@ -45,7 +45,7 @@ const questions = [
         id:4,
         title:"Olinga",
         artist:" - Milt Jackson",
-        embed:`<iframe width=${boxWidth} height="315" src="https://www.youtube.com/embed/i8l_o2R7w84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        embed:`<iframe width=${boxWidth} height="315" src="https://www.youtube.com/embed/i8l_o2R7w84?start=43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         answers: ['Azealia Banks. 212','Erykah Badu. Didn\'t Cha Know','Mos Def. UMI Says','A Tribe Called Quest. Award Tour'],
         correct:3
 
