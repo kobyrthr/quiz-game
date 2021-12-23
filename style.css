@@ -16,7 +16,16 @@ body{
     width: 50%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+#hint p, h1{
+    color: white;
+    max-width: 60%;
+    text-align: center;
+}
+
 #player{
     width: 70%;
     background-color: #FFEFD0;
@@ -42,6 +51,8 @@ body{
     font-weight: bold;
     text-align: center;
     display: flex;
+    background-color: white;
+    
 }
 
 #cdImg{
@@ -75,14 +86,14 @@ body{
     border: solid 1px white;
     cursor: pointer;
     text-transform: uppercase;
-    background-color: black;
-    color: white;
+    background-color: #F7C86A;
+    color: black;
     font-family: "Roboto Mono";
 }
 
 #next:hover{
-background-color: white;
-color: black;
+background-color: black;
+color: whitesmoke;
 }
 
 .row{
@@ -98,11 +109,11 @@ width:100%;
     color:black;
     width:50%;
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 
 }
-#instructions span{
-    font-weight: bold;
-}
+
 
 .options{
     background-color: black;

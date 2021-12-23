@@ -107,8 +107,8 @@ let score = 0
 //DOM SELECTIONS
 const page = document.querySelector('body')
 const questionBox = document.querySelector('#questionBox')
-const hintTitle = document.querySelector('#hint').getElementsByTagName('h3')
-const hintArtist =  document.querySelector('#hint').getElementsByTagName('p')
+const hintTitle = document.querySelector('#songIn')
+const hintArtist =  document.querySelector('#artistIn')
 const songBox =  document.querySelector('#songBox')
 const options = document.querySelectorAll('.options')
 const answers = questions[1].answers
@@ -119,8 +119,8 @@ const modalMain = document.querySelector('.modalMain')
 
 
 //DOM MANIPULATION
-hintTitle[0].innerHTML = questions[1].title
-hintArtist[0].innerHTML = questions[1].artist
+hintTitle.innerHTML = questions[1].title
+hintArtist.innerHTML = questions[1].artist
 songBox.innerHTML = questions[1].embed
 
 
@@ -139,8 +139,8 @@ const nextQuestion = (e) =>{
 
 currentQuestion = randomChoice(questionPile)
 
-hintTitle[0].innerHTML = currentQuestion.title
-hintArtist[0].innerHTML = currentQuestion.artist
+hintTitle.innerHTML = currentQuestion.title
+hintArtist.innerHTML = currentQuestion.artist
 songBox.innerHTML = currentQuestion.embed
 rightAnswer = currentQuestion.answers[currentQuestion.correct]
 
@@ -195,8 +195,8 @@ startGame = () =>{
 
 currentQuestion = randomChoice(questionPile)
 
-hintTitle[0].innerHTML = currentQuestion.title
-hintArtist[0].innerHTML = currentQuestion.artist
+hintTitle.innerHTML = currentQuestion.title
+hintArtist.innerHTML = currentQuestion.artist
 songBox.innerHTML = currentQuestion.embed
 rightAnswer = currentQuestion.answers[currentQuestion.correct]
 
