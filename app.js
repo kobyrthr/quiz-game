@@ -176,7 +176,7 @@ const showAnswer = (e)=>{
 
         if (e.target.innerHTML==='✅'+rightAnswer){
             score = score+1
-            showScore.innerHTML = `Score:${score}/10` 
+            showScore.innerHTML = `${score}` 
 
         }
         // playerScore()
@@ -209,7 +209,7 @@ console.log('Graveyard',graveyard)
 console.log(currentQuestion)
 console.log(currentQuestion.title)
 
-showScore.innerHTML = `Score:${score}`
+showScore.innerHTML = `${score}`
 showScore.className = "score"  
 }
 
