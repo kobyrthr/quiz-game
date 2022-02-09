@@ -223,3 +223,34 @@ width:100%;
 }
 
 
+@media screen and (max-width: 768px){
+
+    #questionBox{
+        flex-direction: column;
+    }
+
+    #hint{
+        width: 80vh;
+        align-self: center;
+    }
+
+    #answer{
+        width: 100%;
+    }
+
+    #intro{
+        position: static;
+        width: 80%;
+        text-align: center;
+    }
+
+    #intro h1{
+        display: none;
+    }
+
+    #intro p{
+    }
+
+    
+}
+
