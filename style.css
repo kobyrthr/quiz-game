@@ -225,6 +225,11 @@ width:100%;
 
 @media screen and (max-width: 768px){
 
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
     #questionBox{
         flex-direction: column;
     }
@@ -240,15 +245,29 @@ width:100%;
 
     #intro{
         position: static;
-        width: 80%;
+        width: 50%;
         text-align: center;
+        margin: 24px;
+        display: none;
     }
 
     #intro h1{
         display: none;
     }
 
-    #intro p{
+    #scoreBox{
+        position: static;
+        text-align: center;
+        width: auto;
+
+    }
+
+    #next{
+        margin: 16px;
+    }
+    
+    #hintBtn{
+        margin: 16px;
     }
 
     
