@@ -228,19 +228,46 @@ width:100%;
     body{
         display: flex;
         justify-content: center;
+        margin:auto;
     }
 
     #questionBox{
         flex-direction: column;
     }
 
+    #scoreBox{
+        font-size: 18px;
+        margin: 32px;
+    }
+
+   
     #hint{
-        width: 80vh;
+        width: 100%;
         align-self: center;
+        font-size:16px;
+    }
+
+#hintBtn{
+    margin: 32px;
+}
+
+    #hintBox{
+        margin:32px;
     }
 
     #answer{
         width: 100%;
+    }
+
+    iframe{
+        width: auto;
+        height: auto;
+    }
+
+    #player{
+        width: auto;
+        height: auto;
+        background-color: transparent;
     }
 
     #intro{
@@ -262,13 +289,24 @@ width:100%;
 
     }
 
+    #instructions{
+        font-size: 20px;
+        width: 85%;
+        margin: 32px;
+    }
+
+    .options{
+        min-height: 80px;
+        width: 70%;
+    }
+
     #next{
         margin: 16px;
+        min-height: 80px;
+        width: 70%;
+        
     }
     
-    #hintBtn{
-        margin: 16px;
-    }
 
     
 }
