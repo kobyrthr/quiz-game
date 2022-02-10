@@ -309,8 +309,9 @@ width:100%;
 
     #next{
         margin: 0 16px 16px 16px;
-        min-height: 80px;
-        width: 70%;
+        min-height: 40px;
+        width: 80%;
+        font-size: 18px;    
         
     }
     
