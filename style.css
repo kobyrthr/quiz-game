@@ -257,6 +257,8 @@ width:100%;
 
     #answer{
         width: 100%;
+        margin: 32px;
+        padding: 40px;
     }
 
     #answer img{
@@ -301,7 +303,8 @@ width:100%;
 
     .options{
         min-height: 80px;
-        width: 70%;
+        width: 80%;
+        font-size: 18px;
     }
 
     #next{
