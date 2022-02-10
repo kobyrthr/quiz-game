@@ -259,6 +259,10 @@ width:100%;
         width: 100%;
     }
 
+    #answer img{
+        display: none;
+    }
+
     iframe{
         width: auto;
         height: auto;
@@ -301,7 +305,7 @@ width:100%;
     }
 
     #next{
-        margin: 16px;
+        margin: 0 16px 16px 16px;
         min-height: 80px;
         width: 70%;
         
