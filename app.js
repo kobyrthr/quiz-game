@@ -6,7 +6,7 @@ const questions = [
 { 
    id: 0,
    title: "They Reminisce Over You",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/2Mb3zpobD0CvJGWv6NpsPy?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/2Mb3zpobD0CvJGWv6NpsPy?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Pete Rock",
    year: 1992,
    producer: "Pete Rock",
@@ -17,7 +17,7 @@ const questions = [
  {
    id: 1,
    title: "One Love",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/27u3Rh4IWYPdwVST20ALrt?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/27u3Rh4IWYPdwVST20ALrt?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Nas",
    year: 1994,
    producer: "Q-Tip",
@@ -28,7 +28,7 @@ const questions = [
  {
    id: 2,
    title: "Runnin",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/0XgpiStoxq1IJncYlPrvZ5?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/0XgpiStoxq1IJncYlPrvZ5?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- The Pharcyde",
    year: 1995,
    producer: "J.Dilla",
@@ -39,7 +39,7 @@ const questions = [
  {
    id: 3,
    title: "Ruff Ryder's Anthem",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/1BKT2I9x4RGKaKqW4up34s?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/1BKT2I9x4RGKaKqW4up34s?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- DMX",
    year: 1998,
    producer: "Swizz Beats",
@@ -50,7 +50,7 @@ const questions = [
  {
    id: 4,
    title: "Nas Is Like",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/3gY6tiCNsuVi6s8kPV6aQg?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/3gY6tiCNsuVi6s8kPV6aQg?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Nas",
    year: 1999,
    producer: "Dj Premier",
@@ -61,7 +61,7 @@ const questions = [
  {
    id: 5,
    title: "The Light",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/5NiUrZVKyLpsyj62Roq5FW?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/5NiUrZVKyLpsyj62Roq5FW?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Common",
    year: 2000,
    producer: "J.Dilla",
@@ -72,7 +72,7 @@ const questions = [
  {
    id: 6,
    title: "So Fresh So Clean",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6glsMWIMIxQ4BedzLqGVi4?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6glsMWIMIxQ4BedzLqGVi4?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Outkast",
    year: 2000,
    producer: "Organized Noize",
@@ -83,7 +83,7 @@ const questions = [
  {
    id: 7,
    title: "Big Pimpin",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/7m97yKVzPpXV9Z4ezEziOD?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/7m97yKVzPpXV9Z4ezEziOD?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Jay-Z",
    year: 2000,
    producer: "Timbaland",
@@ -94,7 +94,7 @@ const questions = [
  {
    id: 8,
    title: "Lights, Camera, Action!",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/36gOOIQaBwXZVKL5z2vC3Z?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/36gOOIQaBwXZVKL5z2vC3Z?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Mr.Cheeks",
    year: 2001,
    producer: "Bink!",
@@ -105,7 +105,7 @@ const questions = [
  {
    id: 9,
    title: "We Gonna Make It",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/3FYSNSTUCqAZGfwEd8ui4l?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/3FYSNSTUCqAZGfwEd8ui4l?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Jadakiss",
    year: 2001,
    producer: "The Alchemist",
@@ -116,7 +116,7 @@ const questions = [
  {
    id: 10,
    title: "Worst Comes to Worst",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/4bHrZLxaOU1gfAz0rZAnCx?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/4bHrZLxaOU1gfAz0rZAnCx?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Dilated People",
    year: 2001,
    producer: "The Alchemist",
@@ -127,7 +127,7 @@ const questions = [
  {
    id: 11,
    title: "Get Ur Freak On",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6zsk6uF3MxfIeHPlubKBvR?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6zsk6uF3MxfIeHPlubKBvR?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Missy Elliott",
    year: 2001,
    producer: "Timbaland",
@@ -138,7 +138,7 @@ const questions = [
  {
    id: 12,
    title: "Still Fly",
-   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/563vSy3HB5NHxel1VGQCW6?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/563vSy3HB5NHxel1VGQCW6?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>`,
    artist: "- Big Tymers",
    year: 2002,
    producer: "Mannie Fresh",
