@@ -3,137 +3,149 @@
 let boxWidth = "100%"
 let boxHeight = "100%"
 const questions = [
-    {
-        id:0,
-        title:"Michelle ",
-        artist:"- The Singers Unlimited",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Drake. Champagne Poetry','Sampha. Incomplete Kisses','J.Cole.She\'s Mine','Kanye West. Blood on the Leaves'],
-        correct: 0,
-        hint:`"And nothing tell the truth like the eyes will
-        Lived so much for others, don't remember how I feel
-        Friends in high places and friends that I hide still
-        Still managed to moonwalk straight through a minefield"`
-
-    },
-
-    {
-        id:1,
-        title:"As Long as I've Got You ",
-        artist:"- The Charmels",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Sampha. Incomplete Kisses','J.Cole.She\'s Mine','Kanye West. Blood on the Leaves','Wu-Tang Clan. C.R.E.A.M'],
-        correct: 3,
-        hint:`"Though I don't know why I chose to smoke sess
-        I guess that's the time when I'm not depressed
-        But I'm still depressed, and I ask, "What's it worth?"
-        Ready to give up so I seek the old Earth"`
-
-    },
-
-    {
-        id:2,
-        title:"Pressure ",
-        artist:"- Quadron",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['A$AP Rocky. Sundress','Drake. Lemon Pepper Freestyle','Kanye West. All Falls Down','Giveon. Like I Want You'],
-        correct: 1,
-        hint: `"If this is your hobby, then come and meet your maker
-        Champagne, ring bells in the streets of Jamaica
-        Started at the crib, look how far this shit'll take ya
-        Ross sittin' on two hunnid thirty-five acres"`
-
-    },
-    {
-        id:3,
-        title:"Ronnie Foster",
-        artist:"- Mystic Brew",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Common. GO!','J. Cole. Forbidden Fruit','UGK, Outkast. Int\'l Players Anthem','Mural. Lupe Fiasco'],
-        correct: 1,
-        hint:`"Take a seat baby girl you've been all in my mind
-        I know I ain't called gotta pardon my grind
-        Just copped a maroon 5, no Adam Levine
-        Became a man by myself, only father was time"`
-
-    },
-    {
-        id:4,
-        title:"Olinga",
-        artist:"- Milt Jackson",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Azealia Banks. 212','Erykah Badu. Didn\'t Cha Know','Mos Def. UMI Says','A Tribe Called Quest. Award Tour'],
-        correct:3,
-        hint:`"Coming with more hits than the Braves and the Yankees
-        Living mad phat like an oversized mampi
-        The wackest crews try to diss, it makes me laugh
-        When my track record's longer than a DC-20 aircraft"`
-
-    },
-    {
-        id:5,
-        title:"Shape of My Heart",
-        artist:"- Sting",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Mos Def. Hip Hop','Nas. The Message','Souls of Mischief. 93\' Til Infinity','Craig Mack. Flava in Ya Ear'],
-        correct: 1,
-        hint:`"The highlights of living, Vegas style roll dice in linen
-        Antera spinning on milleniums, twenty G bets I'm winning them"`
-
-    },
-    {
-        id:6,
-        title:"Chanson D\'Un Jour D\'Hiver",
-        artist:"- Cortex",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Kanye West. Gorgeous','Lupe Fiasco. Mural','UGK, Outkast. Int\'l Players Anthem','Mos Def. Mathematics'],
-        correct: 1,
-        hint:`"I like my pancakes cut in swirls
-        Morrocan moles and undercover squirrels
-        I like cartoons, southern cities with large moons
-        Faith healers, ex-female drug dealers and art booms"`
-
-    },
-    {
-        id:7,
-        title:"Mary Jane",
-        artist:"- Rick James",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Kanye West. Runaway','Kendrick Lamar. HiiPower','Frank Ocean. In My Room','Giveon. Like I Want You'],
-        correct: 0,
-        hint:`"Never was much of a romantic
-        I could never take the intimacy
-        And I know it did damage
-        'Cause the look in your eyes is killin' me"`
-
-    },
-    {
-        id:8,
-        title:"Knee Socks",
-        artist:"- Arctic Monkeys",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['A$AP Rocky, Skepta. Praise The Loard (Da Shine)','J.Cole. Middle Child','Pusha T. If You Know You Know','Nipsey Hussle. Victory Lap'],
-        correct: 3,
-        hint:`"I'm finna take it there
-        This time around I'ma make it clear
-        Spoke some things into the universe and they appeared
-        I say it's worth it, I won't say it's fair"`
-
-    },
-    {
-        id:9,
-        title:"Don't Let Your Love Fade Away",
-        
-        artist:"- Gene Williams",
-        embed:`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4KsRhsifjqKgnfQHVIgJke?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`,
-        answers: ['Jay Electronic. Exhibit C','J. Cole. Forbidden Fruit','Rick Ross, Jay-Z. The Devil Is A Lie','A$AP Rocky, Skepta. Praise The Loard (Da Shine)'],
-        correct:2,
-        hint:`"You seen what I did to the stop and frisk
-        Brooklyn on the Barney's like we own the bitch
-        Give the money to the hood, now we all win
-        Got that Barney's floor lookin' like a VIM"` 
-
-    },
+{ 
+   id: 0,
+   title: "They Reminisce Over You",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/2Mb3zpobD0CvJGWv6NpsPy?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Pete Rock",
+   year: 1992,
+   producer: "Pete Rock",
+   album: "Mecca & The Soul Brother (Remixes)",
+   answers:["Q-Tip", "J.Dilla", "Dj Premier", "Pete Rock"],
+   correct: 3
+ },
+ {
+   id: 1,
+   title: "One Love",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/27u3Rh4IWYPdwVST20ALrt?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Nas",
+   year: 1994,
+   producer: "Q-Tip",
+   album: "Illmatic",
+   answers:["Q-Tip", "J.Dilla", "Dj Premier", "Pete Rock"],
+   correct: 0
+ },
+ {
+   id: 2,
+   title: "Runnin",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/0XgpiStoxq1IJncYlPrvZ5?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- The Pharcyde",
+   year: 1995,
+   producer: "J.Dilla",
+   album: "Labcabincalifornia",
+   answers:["Q-Tip", "J.Dilla", "Dj Premier", "Pete Rock"],
+   correct: 1
+ },
+ {
+   id: 3,
+   title: "Ruff Ryder's Anthem",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/1BKT2I9x4RGKaKqW4up34s?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- DMX",
+   year: 1998,
+   producer: "Swizz Beats",
+   album: "It's Dark and Hell Is Hot",
+   answers:["Q-Tip", "J.Dilla", "Dj Premier", "Swizz Beats"],
+   correct: 3
+ },
+ {
+   id: 4,
+   title: "Nas Is Like",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/3gY6tiCNsuVi6s8kPV6aQg?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Nas",
+   year: 1999,
+   producer: "Dj Premier",
+   album: "I Am...",
+   answers:["Q-Tip", "J.Dilla", "Dj Premier", "Pete Rock"],
+   correct: 2
+ },
+ {
+   id: 5,
+   title: "The Light",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/5NiUrZVKyLpsyj62Roq5FW?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Common",
+   year: 2000,
+   producer: "J.Dilla",
+   album: "Like Water for Chocolate",
+   answers:["Q-Tip", "J.Dilla", "Dj Premier", "Pete Rock"],
+   correct: 1
+ },
+ {
+   id: 6,
+   title: "So Fresh So Clean",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6glsMWIMIxQ4BedzLqGVi4?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Outkast",
+   year: 2000,
+   producer: "Organized Noize",
+   album: "Stankonia",
+   answers:["Organized Noize", "J.Dilla", "Dj Premier", "Pete Rock"],
+   correct: 0
+ },
+ {
+   id: 7,
+   title: "Big Pimpin",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/7m97yKVzPpXV9Z4ezEziOD?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Jay-Z",
+   year: 2000,
+   producer: "Timbaland",
+   album: "",
+   answers:["Q-Tip","Timbaland", "Dj Premier", "Pete Rock"],
+   correct: 1
+ },
+ {
+   id: 8,
+   title: "Lights, Camera, Action!",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/36gOOIQaBwXZVKL5z2vC3Z?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Mr.Cheeks",
+   year: 2001,
+   producer: "Bink!",
+   album: "",
+   answers:["Q-Tip", "J.Dilla", "Bink!", "Pete Rock"],
+   correct: 2
+ },
+ {
+   id: 9,
+   title: "We Gonna Make It",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/3FYSNSTUCqAZGfwEd8ui4l?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Jadakiss",
+   year: 2001,
+   producer: "The Alchemist",
+   album: "Kiss tha Game Goodbye",
+   answers:["Q-Tip", "The Alchemist", "Dj Premier", "Pete Rock"],
+   correct: 1
+ },
+ {
+   id: 10,
+   title: "Worst Comes to Worst",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/4bHrZLxaOU1gfAz0rZAnCx?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Dilated People",
+   year: 2001,
+   producer: "The Alchemist",
+   album: "Expansion Team",
+   answers:["Q-Tip", "The Alchemist", "Dj Premier", "Pete Rock"],
+   correct: 1
+ },
+ {
+   id: 11,
+   title: "Get Ur Freak On",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6zsk6uF3MxfIeHPlubKBvR?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Missy Elliott",
+   year: 2001,
+   producer: "Timbaland",
+   album: "Miss E... So Addictive",
+   answers:["Q-Tip","Timbaland", "Dj Premier", "Pete Rock"],
+   correct: 1
+ },
+ {
+   id: 12,
+   title: "Still Fly",
+   spotify: `<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/563vSy3HB5NHxel1VGQCW6?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"`,
+   artist: "- Big Tymers",
+   year: 2002,
+   producer: "Mannie Fresh",
+   album: "Hood Rich",
+   answers:["Q-Tip", "J.Dilla", "Mannie Fresh", "Pete Rock"],
+   correct: 2
+ },
     
 ]
 let questionPile = questions
